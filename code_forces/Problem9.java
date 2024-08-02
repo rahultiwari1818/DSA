@@ -7,24 +7,39 @@ public class Problem9 {
         while (tc-- > 0) {
             
             int n = sc.nextInt();
-            int q = sc.nextInt();
+            int a = sc.nextInt();
             int k = sc.nextInt();
             String str = sc.next();
-            int count = q;
-            for (int i = 0; i < k; i++) {
-                if (str.charAt(i) == '+') {
-                    count++;
-                } else {
-                    count--;
+
+            if(a == n){
+                System.out.println("YES");
+            }
+            else{
+                int online = 0;
+                int offline = 0;
+                for (int i = 0; i < k; i++) {
+                    if (str.charAt(i) == '+') {
+                        online++;
+                    }
+                    if (str.charAt(i) == '-') {
+                        offline++;
+                    }
+                    
+                }
+
+                if(online+a==n){
+                    System.out.println("MAYBE");
+                }
+                else if(online+a > n){
+                    System.out.println("YES");
+                }
+                else{
+                    System.out.println("NO");
                 }
             }
-            if (count == n) {
-                System.out.println("MAYBE");
-            } else if (count > n) {
-                System.out.println("YES");
-            } else {
-                System.out.println("NO");
-            }
+
+            
+
         }
     }
 }

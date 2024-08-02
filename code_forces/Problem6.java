@@ -11,43 +11,19 @@ public class Problem6{
             for(int i=0;i<n;i++){
                 for(int j=0;j<m;j++){
                     arr[i][j] = sc.nextInt();
+                    // System.out.print( (arr[i][j] % (n * m) + 1) +" ");
                 }
+                // System.out.println();
             }
-            if(m==1 && n==1){
-                System.out.println(-1);
-            }
+            if(n==1 && m==1) System.out.println(-1);
             else{
-                if(m==1){
-                    if(n%2==0){
-                        for(int i=0;i<n;i++){
-                            System.out.println(arr[n-i-1][0]);
-                        }
+                for(int i=0;i<n;i++){
+                    for(int j=0;j<m;j++){
+                        System.out.print( (arr[i][j] % (n * m) + 1) +" ");
                     }
-                    else{
-                        for(int i=0;i<n-1;i++){
-                                int temp = arr[i+1][0];
-                                arr[i+1][0]=arr[i][0];
-                                arr[i][0] = temp;
-                                System.out.println(arr[i][0]);
-                        }
-                        System.out.println(arr[n-1][0]);
-                        System.out.println(arr[n-2][0]);
-                    }
-                }
-                else{
-                    for(int i=0;i<n;i++){
-                        for(int j=0;j<m-1;j++){
-                            int temp = arr[i][j+1];
-                            arr[i][j+1]=arr[i][j];
-                            arr[i][j] = temp;
-                            System.out.print(arr[i][j]);
-                            System.out.print(" ");
-                        }
-                        System.out.println(arr[i][m-1]);
-                        // System.out.print(" ");
-                    }
+                    System.out.println();
                 }
             }
-        }
+           }
     }
 }
