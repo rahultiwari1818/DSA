@@ -15,27 +15,18 @@ public class Problem9 {
                 System.out.println("YES");
             }
             else{
-                int online = 0;
                 int offline = 0;
-                for (int i = 0; i < k; i++) {
-                    if (str.charAt(i) == '+') {
+                int online = 0;
+                for(int i=0;i<k;i++){
+                    if(str.charAt(i)=='+'){
                         online++;
                     }
-                    if (str.charAt(i) == '-') {
+                    else{
                         offline++;
                     }
-                    
                 }
-
-                if(online+a==n){
-                    System.out.println("MAYBE");
-                }
-                else if(online+a > n){
-                    System.out.println("YES");
-                }
-                else{
-                    System.out.println("NO");
-                }
+                
+                
             }
 
             
