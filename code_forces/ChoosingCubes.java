@@ -24,7 +24,7 @@ public class ChoosingCubes{
                 System.out.println("YES");
             }
             else{
-                if(k==n-1 || arr[k+1] < x){
+                if(k==n-1 || arr[k+1] < arr[f]){
                     System.out.println("YES");
                 }
                 else{
