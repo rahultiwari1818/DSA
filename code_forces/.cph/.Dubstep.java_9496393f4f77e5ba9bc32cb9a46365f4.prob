@@ -1,0 +1,1 @@
+{"name":"Local: Dubstep","url":"/Users/tiwaris/Java_and_DSA/code_forces/Dubstep.java","tests":[{"id":1723719184425,"input":"WUBWUBABCWUB","output":"ABC"},{"id":1723719210889,"input":"WUBWUBWUBSR","output":"SR"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/tiwaris/Java_and_DSA/code_forces/Dubstep.java","group":"local","local":true}
