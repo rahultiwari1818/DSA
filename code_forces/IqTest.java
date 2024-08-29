@@ -6,11 +6,19 @@ public class IqTest{
         int n = sc.nextInt();
         int arr[] = new int[n];
         int odds=0,evens=0;
+        int evenIdx = -1;
+        int oddIdx = -1;
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
-            if(arr[i]%2==0)evens++;
-            else odds++;
+            if(arr[i]%2==0){evens++; evenIdx=i+1;}
+            else {odds++; oddIdx=i+1;}
         }
-        System.out.println(Math.abs(evens-odds));
+        if(odds >  evens){
+            System.out.println(evenIdx);
+        }
+        else{
+            System.out.println(oddIdx);
+        }
+        sc.close();
     }
 }
