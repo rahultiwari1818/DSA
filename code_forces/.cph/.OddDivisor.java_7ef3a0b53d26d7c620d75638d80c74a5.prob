@@ -1,0 +1,1 @@
+{"name":"Local: OddDivisor","url":"d:\\Java_and_DSA\\code_forces\\OddDivisor.java","tests":[{"id":1724993958934,"input":"5\n2\n3\n4\n5\n998244353\n","output":"NO\nYES\nNO\nYES\nYES\n\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java_and_DSA\\code_forces\\OddDivisor.java","group":"local","local":true}

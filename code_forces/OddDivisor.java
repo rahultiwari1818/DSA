@@ -6,17 +6,9 @@ public class OddDivisor{
         int tc = sc.nextInt();
         while(tc-- > 0){
             long n = sc.nextLong();
-            boolean flag = false;
-            for(long i=2;i<=n;i++){
-                if(i%2 != 0 && n%i==0){
-                    flag = true;
-                    break;
-                }
-            }
-            if(flag){
+            if (n % 2 == 1 || (n & (n - 1)) != 0) {
                 System.out.println("YES");
-            }
-            else{
+            } else {
                 System.out.println("NO");
             }
         }
