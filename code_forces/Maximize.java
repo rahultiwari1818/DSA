@@ -19,5 +19,6 @@ public class Maximize{
             }
             System.out.println(max);
         }
+        sc.close();
     }
 }

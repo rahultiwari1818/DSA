@@ -24,5 +24,6 @@ public class MikishaAndGame {
         } else {
             System.out.println("Chris");
         }
+        sc.close();
     }
 }

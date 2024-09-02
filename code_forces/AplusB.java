@@ -7,5 +7,6 @@ public class AplusB {
             String s = sc.next();
             System.out.println((s.charAt(0)-'0')+(s.charAt(2)-'0'));
         }
+        sc.close();
     }
 }
