@@ -20,5 +20,6 @@ public class BalancedRound {
                 }
                 System.out.println(count);
             }
+            sc.close();
     }
 }

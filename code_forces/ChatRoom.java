@@ -22,6 +22,7 @@ public class ChatRoom{
         else{
             System.out.println("YES");
         }
+        sc.close();
 
     }
 }

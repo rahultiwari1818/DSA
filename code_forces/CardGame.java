@@ -30,5 +30,6 @@ public class CardGame {
             
             System.out.println(ans);
         }
+        sc.close();
     }
 }

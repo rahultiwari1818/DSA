@@ -33,5 +33,6 @@ public class ChoosingCubes{
             }
             
         }
+        sc.close();
     }
 }

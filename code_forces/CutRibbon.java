@@ -8,5 +8,7 @@ public class CutRibbon {
         int b = sc.nextInt();
         int c = sc.nextInt();
         
+
+        sc.close();
     }    
 }

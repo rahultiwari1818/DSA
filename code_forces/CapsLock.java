@@ -27,5 +27,6 @@ public class CapsLock {
         }
 
         System.out.println(ans.toString());
+        sc.close();
     }
 }

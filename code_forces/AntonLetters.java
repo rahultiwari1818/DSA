@@ -11,5 +11,6 @@ public class AntonLetters{
             }
         }
         System.out.println(set.size());
+        sc.close();
     }
 }

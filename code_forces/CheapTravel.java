@@ -20,5 +20,6 @@ public class CheapTravel {
                 System.out.println(Math.min(normalPrice,Math.min(specialTicketPrice+b,specialTicketPrice+((n%m)*a))));
             }
         }
+        sc.close();
     }
 }

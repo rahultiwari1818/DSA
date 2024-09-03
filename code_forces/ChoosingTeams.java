@@ -14,5 +14,6 @@ public class ChoosingTeams {
             if(i+2 < n && arr[i]+k <= 5 &&arr[i+1]+k <= 5 &&arr[i+2]+k <= 5  ) answer++;
         }
         System.out.println(answer);
+        sc.close();
     }
 }

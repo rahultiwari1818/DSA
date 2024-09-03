@@ -28,6 +28,6 @@ public class AlmostPrime{
             }
         }
         System.out.println(answer);
-
+        sc.close();
     }
 }
