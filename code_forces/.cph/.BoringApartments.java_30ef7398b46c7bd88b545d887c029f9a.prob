@@ -1,0 +1,1 @@
+{"name":"Local: BoringApartments","url":"d:\\Java_and_DSA\\code_forces\\BoringApartments.java","tests":[{"id":1725538366180,"input":"4\n22\n9999\n1\n777\n","output":"13\n90\n1\n66\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java_and_DSA\\code_forces\\BoringApartments.java","group":"local","local":true}
