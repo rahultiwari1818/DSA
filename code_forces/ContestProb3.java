@@ -9,28 +9,13 @@ public class ContestProb3 {
             int x = sc.nextInt();
             int y = sc.nextInt();
             int k = sc.nextInt();
-            int a=0,b=0,f1=0,f2=0;
-            if(x%k!=0){
-               a+=(x/k);
-               a++;
-               f1=1;
-            }
-            else{
-                a+=(x/k);
-            }
-            if(y%k!=0){
-               b+=(y/k);
-               b++;
-               f2=1;
-            }
-            else{
-                b+=(y/k);
-            }
-            int ans = Math.max(a,b)*2;
-            if(f1==0 && f2 == 0){
-                ans-=1;
-            }
-            System.out.println(ans);
+            int xMoves = (int) Math.ceil((double) x / k);
+            int yMoves = (int) Math.ceil((double) y / k);
+    
+            // The minimum total moves required is max of the two
+            int totalMoves = Math.max(xMoves * 2 - 1, yMoves * 2);
+    
+            System.out.println(totalMoves);    
         }
         sc.close();
     }
