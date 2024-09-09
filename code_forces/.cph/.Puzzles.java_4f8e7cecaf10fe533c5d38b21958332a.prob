@@ -1,0 +1,1 @@
+{"name":"Local: Puzzles","url":"d:\\Java_and_DSA\\code_forces\\Puzzles.java","tests":[{"id":1725868023767,"input":"4 6\n10 12 10 7 5 22\n","output":"5"},{"id":1725868541191,"input":"2 10\n4 5 6 7 8 9 10 11 12 12","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java_and_DSA\\code_forces\\Puzzles.java","group":"local","local":true}
