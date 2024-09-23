@@ -8,7 +8,9 @@ public class NextRound {
         int count = 0;
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
-            if(arr[i] >= k) count++;
+        }
+        for(int i=0;i<n;i++){
+            if(arr[i] > arr[k-1]) count++;
         }
         System.out.println(count);
 

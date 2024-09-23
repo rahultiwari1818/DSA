@@ -1,0 +1,1 @@
+{"name":"Local: NextRound","url":"d:\\Java_and_DSA\\code_forces\\NextRound.java","tests":[{"id":1726985180334,"input":"8 5\n10 9 8 7 7 7 5 5\n","output":"6"},{"id":1726985193353,"input":"4 2\n0 0 0 0\n","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java_and_DSA\\code_forces\\NextRound.java","group":"local","local":true}
