@@ -1,0 +1,1 @@
+{"name":"Local: WordCapitalization","url":"d:\\Java_and_DSA\\code_forces\\WordCapitalization.java","tests":[{"id":1727153200340,"input":"ApPLe\n","output":"ApPLe"},{"id":1727153222958,"input":"konjac","output":"Konjac"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java_and_DSA\\code_forces\\WordCapitalization.java","group":"local","local":true}
